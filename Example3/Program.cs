@@ -13,9 +13,22 @@ namespace Example3
     {
         public int age;
         public string name;
-        public void GetInfo()
+
+        public Student()
         {
-            Console.WriteLine(age + " " + name);
+            age = 18;
+            name = "John Doe";
+        }
+
+        public Student(string name, int age)
+        {
+            this.age = age;
+            this.name = name;
+        }
+
+        public override string ToString()
+        {
+            return age + " " + name;
         }
     }
 
@@ -23,10 +36,8 @@ namespace Example3
     {
         static void Main(string[] args)
         {
-            Student s = new Student();
-            s.age = 20;
-            s.name = "Sapar";
-            s.GetInfo();
+            Student s = new Student("John", 25);
+            Console.WriteLine(s.ToString());
         }
     }
 }
