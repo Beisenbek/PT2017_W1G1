@@ -8,6 +8,7 @@ namespace Example2
 {
     class Program
     {
+        //comment #1
         static void Main(string[] args)
         {
             if (args.Length > 1)
