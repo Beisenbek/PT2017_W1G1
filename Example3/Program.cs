@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace Example3
 {
+    /// <summary>
+    /// Student class
+    /// </summary>
     class Student
     {
         public int age;
