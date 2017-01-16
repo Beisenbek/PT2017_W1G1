@@ -8,6 +8,10 @@ namespace Example1
 {
     class Program
     {
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             int a = int.Parse(Console.ReadLine());
